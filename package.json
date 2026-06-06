@@ -1,0 +1,37 @@
+{
+  "name": "growi-plugin-and-search",
+  "version": "0.1.0",
+  "description": "AND search modal for GROWI (intersection-based AND over space-separated keywords)",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:watch": "vite build --watch",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@growi/pluginkit": "^1.1.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "jsdom": "^25.0.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "typescript": "^5.5.0",
+    "vite": "^5.4.0",
+    "vitest": "^2.1.0"
+  },
+  "dependencies": {
+    "rehype-stringify": "^10.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.0.0",
+    "unified": "^11.0.0",
+    "unist-util-visit": "^5.1.0"
+  },
+  "growiPlugin": {
+    "schemaVersion": 4,
+    "types": ["script"]
+  }
+}
